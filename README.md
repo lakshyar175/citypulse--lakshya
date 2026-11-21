@@ -32,6 +32,8 @@ rm -rf folder-name
 
 > **Warning:** `rm -rf` permanently deletes data. Double-check the path before running it.
 
+![Task 2: Remove files and directories recursively](images/task2.png)
+
 ## Task 3: Rename Files and Check Disk Usage
 
 ### Rename a File or Directory
@@ -70,6 +72,8 @@ du -sh
 du -sh folder-name
 ```
 
+![Task 3: Rename files and check disk usage](images/task3.png)
+
 ## Task 4: Linux Permissions
 
 Linux files and directories have three permission types:
@@ -103,6 +107,8 @@ chmod 755 script.sh
 
 Numeric permission values are read = 4, write = 2, and execute = 1. For example, `755` means owner `rwx` (7), group `r-x` (5), and others `r-x` (5).
 
+![Task 4: Linux permissions](images/task4.png)
+
 ## Task 5: List Running Processes
 
 ```bash
@@ -121,3 +127,5 @@ pgrep python
 # Stop a process by its ID
 kill <PID>
 ```
+
+![Task 5: List running processes](images/task5.png)
